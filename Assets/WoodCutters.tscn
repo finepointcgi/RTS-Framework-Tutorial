@@ -1,12 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Assets/Home/roof.material" type="Material" id=1]
 [ext_resource path="res://Assets/Home/border.material" type="Material" id=2]
 [ext_resource path="res://Assets/Home/door.material" type="Material" id=3]
 [ext_resource path="res://Assets/Home/window.material" type="Material" id=4]
 [ext_resource path="res://Assets/Home/_defaultMat.material" type="Material" id=5]
-[ext_resource path="res://Assets/BuildingObject.gd" type="Script" id=6]
-[ext_resource path="res://Scenes/WoodCutter.tscn" type="PackedScene" id=7]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "house_type08_Mesh house_type08"
@@ -78,10 +76,6 @@ extents = Vector3( 0.978, 0.551, 0.584 )
 transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
 collision_layer = 129
 collision_mask = 129
-script = ExtResource( 6 )
-WoodCost = 5
-PopulationCost = 1
-Actor = ExtResource( 7 )
 
 [node name="tmpParent" type="Spatial" parent="."]
 
