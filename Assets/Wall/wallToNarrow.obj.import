@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallToNarrow.obj-cf862395107c4ea2a6ebbece7d7f21d3.mesh"
+
+[deps]
+
+files=[ "res://.import/wallToNarrow.obj-cf862395107c4ea2a6ebbece7d7f21d3.mesh" ]
+
+source_file="res://Assets/Wall/wallToNarrow.obj"
+dest_files=[ "res://.import/wallToNarrow.obj-cf862395107c4ea2a6ebbece7d7f21d3.mesh", "res://.import/wallToNarrow.obj-cf862395107c4ea2a6ebbece7d7f21d3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
